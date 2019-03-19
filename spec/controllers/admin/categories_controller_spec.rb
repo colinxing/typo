@@ -80,6 +80,7 @@ describe Admin::CategoriesController do
       assert_template 'destroy'      
     end
   end
+  
 
   it "test_destroy with POST" do
     test_id = Factory(:category).id
